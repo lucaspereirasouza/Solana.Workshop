@@ -13,7 +13,8 @@ body{
 
 .title{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+
+    background: -webkit-linear-gradient(205deg, rgba(40,0,255,1) 0%, rgba(156,0,255,1) 25%, rgba(128,41,255,1) 42%, rgba(92,94,255,1) 49%, rgba(0,230,255,1) 67%, rgba(0,240,211,1) 79%, rgba(0,255,143,1) 84%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
