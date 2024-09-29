@@ -5,93 +5,249 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solana workshop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/index.css">
 </head>
 
 <body>
     <div class="tab-menu">
-        <div class="title">Solana.workshop</div>
+        <a href="" class="title">
+            <img src="src/img/SolanaIconTransparent.png" alt="" srcset="">
+            <div class="title-name">WORKSHOP</div>
+        </a>
         <div class="gap"></div>
         <div class="buttons">
 
             <a href="#" class="a-page-button">
-                <div class="a-page-text">workshop</div>
+                <div class="a-page-text">Know more</div>
             </a>
-            <a href="/login/login.html" class="a-page-button">
-                <div class="a-page-text">Login</div>
+
+            <a href="/aboutus.html" class="a-page-button">
+                <div class="a-page-text">About us</div>
+            </a>
+
+            <a href="workshop.html" class="a-page-button">
+                <div class="a-page-text">Explore</div>
             </a>
             <a href="#" class="a-theme-button">
-                <div class="a-page-text"><img src="/src/img/ChangeTheme.png" alt="Theme Button"></div>
+                <div class="a-page-text"><img src="/src/img/ChangeTheme.png" alt=""></div>
             </a>
         </div>
     </div>
 
     <div class="portfolio">
-        <div class="solana-title">Solana.Workshop</div>
+        <div class="solana-title">Solana Workshop</div>
         <div class="solana-content-text">
-            <div class="solana-second-title">Solana tools for suitable action</div>
-            <div class="solana-text">This site is a colection of common usable tools for trading in solana.</div>
+            <div class="solana-second-title">for suitable action</div>
+            <div class="solana-text">Solana workshop is a great collection of tools for trading in solana.</div>
+        </div>
+        <div class="solana-buttons">
+            <div class="solana-buttons-gap"></div>
+            <a href="/workshop.html" class="solana-start-now-button">
+                Know about
+            </a>
+            <a href="/workshop.html" class="solana-start-now-button">
+                Start now
+            </a>
+            <div class="solana-buttons-gap"></div>
         </div>
     </div>
-    
-    <div class="separation-content">
-        <div class="categories">
-            <div class="box-categories">
-                <div class="box-categories-name">Scam</div>
+    </div>
+
+    <!-- TradingView Widget BEGIN -->
+
+    <div class="trading-view-widgets">
+
+        <div class="trading-view-widget-BTC">
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright"></div>
+                <script type="text/javascript"
+                    src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+                        {
+                            "symbols": [
+                                [
+                                    "BITSTAMP:BTCUSD|1D"
+                                ]
+                            ],
+                                "chartOnly": false,
+                                    "width": "100%",
+                                    "height": "120%",
+                                            "locale": "en",
+                                                "colorTheme": "dark",
+                                                    "autosize": true,
+                                                        "showVolume": false,
+                                                            "showMA": false,
+                                                                "hideDateRanges": false,
+                                                                    "hideMarketStatus": false,
+                                                                        "hideSymbolLogo": false,
+                                                                            "scalePosition": "right",
+                                                                                "scaleMode": "Normal",
+                                                                                    "fontFamily": "Chakra Petch, sans-serif",
+                                                                                        "fontSize": "10",
+                                                                                            "noTimeScale": false,
+                                                                                                "valuesTracking": "1",
+                                                                                                    "changeMode": "price-and-percent",
+                                                                                                        "chartType": "area",
+                                                                                                            "maLineColor": "#2962FF",
+                                                                                                                "maLineWidth": 1,
+                                                                                                                    "maLength": 9,
+                                                                                                                        "headerFontSize": "medium",
+                                                                                                                            "lineWidth": 2,
+                                                                                                                                "lineType": 0,
+                                                                                                                                    "dateRanges": [
+                                                                                                                                        "1d|1",
+                                                                                                                                        "1m|30",
+                                                                                                                                        "3m|60",
+                                                                                                                                        "12m|1D",
+                                                                                                                                        "60m|1W",
+                                                                                                                                        "all|1M"
+                                                                                                                                    ]
+                        }
+                    </script>
             </div>
-        
-            <div class="box-categories">
-                <div class="box-categories-name">Scam</div>
-            </div>
-            <div class="box-categories">
-                <div class="box-categories-name">Scam</div>
-            </div>
+            <!-- TradingView Widget END -->
         </div>
-    
-        <div class="main-list">
-            <div class="box-list">
-                <img src="src/img/TonSolana.jpg" class="box-image" alt="Trojan to solana" srcset="">
-                <div class="box-text-content">
-                    <div class="box-name">Trojan to solana</div>
-                    <div class="box-description">Trojan to solana is a telegram trading bot</div>
-                </div>
-                <div class="box-button-redirect"><a href="http://"><img src="" alt="" srcset=""></a></div>
+        <div class="trading-view-widget2"><!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright"></div>
+                <script type="text/javascript"
+                    src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+                        {
+                            "symbols": [
+                                [
+                                    "CRYPTOCAP:USDC|1D"
+                                ]
+                            ],
+                                "chartOnly": false,
+                                    "width": "100%",
+                                        "height": "100%",
+                                            "locale": "en",
+                                                "colorTheme": "dark",
+                                                    "autosize": true,
+                                                        "showVolume": false,
+                                                            "showMA": false,
+                                                                "hideDateRanges": false,
+                                                                    "hideMarketStatus": false,
+                                                                        "hideSymbolLogo": false,
+                                                                            "scalePosition": "right",
+                                                                                "scaleMode": "Normal",
+                                                                                    "fontFamily": "Chakra Petch, sans-serif",
+                                                                                        "fontSize": "10",
+                                                                                            "noTimeScale": false,
+                                                                                                "valuesTracking": "1",
+                                                                                                    "changeMode": "price-and-percent",
+                                                                                                        "chartType": "area",
+                                                                                                            "maLineColor": "#2962FF",
+                                                                                                                "maLineWidth": 1,
+                                                                                                                    "maLength": 9,
+                                                                                                                        "headerFontSize": "medium",
+                                                                                                                            "lineWidth": 2,
+                                                                                                                                "lineType": 0,
+                                                                                                                                    "dateRanges": [
+                                                                                                                                        "1d|1",
+                                                                                                                                        "1m|30",
+                                                                                                                                        "3m|60",
+                                                                                                                                        "12m|1D",
+                                                                                                                                        "60m|1W",
+                                                                                                                                        "all|1M"
+                                                                                                                                    ]
+                        }
+                    </script>
             </div>
-            <div class="box-list">
-                <img src="src/img/TonSolana.jpg" class="box-image" alt="Trojan to solana" srcset="">
-                <div class="box-name">Trojan to solana</div>
-                <div class="box-description">Trojan to solana is a telegram trading bot</div>
-                <div class="box-button-redirect"><a href="http://"><img src="" alt="" srcset=""></a></div>
+            <!-- TradingView Widget END -->
+        </div>
+        <div class="trading-view-widget3"><!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow"
+                        target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                <script type="text/javascript"
+                    src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+                        {
+                            "symbols": [
+                                [
+                                    "CRYPTOCAP:SOL|1D"
+                                ]
+                            ],
+                                "chartOnly": false,
+                                "width": "100%",
+                                    "height": "100%",
+                                "locale": "en",
+                                "colorTheme": "dark",
+                                "autosize": true,
+                                "showVolume": false,
+                                "showMA": false,
+                                "hideDateRanges": false,
+                                "hideMarketStatus": false,
+                                "hideSymbolLogo": false,
+                                "scalePosition": "right",
+                                "scaleMode": "Normal",
+                                "fontFamily": "Chakra Petch, sans-serif",
+                                "fontSize": "10",
+                                    "noTimeScale": false,
+                                        "valuesTracking": "1",
+                                            "changeMode": "price-and-percent",
+                                                "chartType": "area",
+                                                        "maLineColor": "#2962FF",
+                                                                "maLineWidth": 1,
+                                                                            "maLength": 9,
+                                                                                            "headerFontSize": "medium",
+                                                                                                    "lineWidth": 2,
+                                                                                                            "lineType": 0,
+                                                                                                                    "dateRanges": [
+                                                                                                                            "1d|1",
+                                                                                                                                "1m|30",
+                                                                                                                                    "3m|60",
+                                                                                                                                        "12m|1D",
+                                                                                                                                        "60m|1W",
+                                                                                                                                        "all|1M"
+                                                                                                                                    ]
+                        }
+                    </script>
             </div>
-            <div class="box-list">
-                <img src="src/img/TonSolana.jpg" class="box-image" alt="Trojan to solana" srcset="">
-                <div class="box-name">Trojan to solana</div>
-                <div class="box-description">Trojan to solana is a telegram trading bot</div>
-                <div class="box-button-redirect"><a href="http://"><img src="" alt="" srcset=""></a></div>
-            </div>
-
-
-            <div class="box-list">
-                <img src="src/img/TonSolana.jpg" class="box-image" alt="Trojan to solana" srcset="">
-                <div class="box-name">Trojan to solana</div>
-                <div class="box-description">Trojan to solana is a telegram trading bot</div>
-                <div class="box-button-redirect"><a href="http://"><img src="" alt="" srcset=""></a></div>
-            </div>
-            <div class="box-list">
-                <img src="src/img/TonSolana.jpg" class="box-image" alt="Trojan to solana" srcset="">
-                <div class="box-name">Trojan to solana</div>
-                <div class="box-description">Trojan to solana is a telegram trading bot</div>
-                <div class="box-button-redirect"><a href="http://"><img src="" alt="" srcset=""></a></div>
-            </div>
-            <div class="box-list">
-                <img src="src/img/TonSolana.jpg" class="box-image" alt="Trojan to solana" srcset="">
-                <div class="box-name">Trojan to solana</div>
-                <div class="box-description">Trojan to solana is a telegram trading bot</div>
-                <div class="box-button-redirect"><a href="http://"><img src="" alt="" srcset=""></a></div>
-            </div>
+            <!-- TradingView Widget END -->
         </div>
     </div>
+
+
+    </div>
+    <div class="down-gap"></div>
+    <div class="preview-workshop">
+        <div class="preview-workshop-window1">
+            <h1>Video here</h1>
+            
+        </div>
+        <div class="preview-workshop-window2">
+            <h1>Image gere</h1>
+        </div>
+        <div class="preview-workshop-window3">
+            <h1>Image here</h1>
+        </div>
+    </div>
+
+
+
+
+    .about-guide
+
+    <div class="bottom-page">
+        <div class="community">
+            <a href="" class="a-discord"><img src="" alt="" srcset=""></a>
+            <a href="" class="a-github"><img src="" alt="" srcset=""></a>
+        </div>
 
 </body>
 

@@ -1,111 +1,125 @@
-
-
-
-.separation-content{
-    display: flex;
-    flex-direction: row;
-}
-
-.main-list{
-    flex: 1.75;
-
-    display: grid;
-    grid-template-columns: 3fr 3fr;
-}
-
-.categories{
-    flex: 0.65;
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-
-}
- 
-.box-categories{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    border-radius: 25px;
-    background-color: aliceblue;
-    margin-top: 5px;
-    margin-right: 45px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: large;
-}
-
-.box-categories:hover{
-    color:white;
-}
-
-.box-categories-name{
-    color: blue;
-    text-align: center;
-}
-
-.box-list{
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(12, 10, 87);
-}
-.box-image{
-    border: 5px;
-    border-color: aliceblue;
-    border-radius: 150px;
-    height: 50px;
-}
-.box-text-content{
-    display: flex;
-    flex-direction: column;
-}
-
-.box-name{
-    color:white;
-}
-
-.portfolio{
+.portfolio {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-top: 10%;
     margin-bottom: 250px;
 }
-.solana-content-text{
+
+
+.solana-content-text {
     display: flex;
     flex-direction: column;
 }
 
-.solana-title{
+.solana-title {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
     color: white;
     font-size: 50px;
 }
-.solana-second-title{
+
+.solana-second-title {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
     color: white;
     font-size: 30px;
 }
-.solana-text{
+
+.solana-text {
     color: white;
 }
 
-
-
-
-.name{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font: white;
-    font-size: small
+.solana-buttons {
+    display: flex;
+    flex-direction: row;
 }
-.box-description{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+.solana-buttons-gap {
+    flex: 1.6;
+}
+
+.solana-start-now-button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -webkit-linear-gradient(205deg, rgba(40, 0, 255, 1) 0%, rgba(0, 240, 211, 1) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    flex: 1;
     color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration-line: none;
+    transition: 1s;
 }
-.box-button-redirect{
-    height: 20px;
+
+.solana-start-now-button:hover {
+
+    font-weight: bold;
 }
-.image{
-    border-radius: 50px;
-    height: 50px;
+
+
+
+.trading-view-widgets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.trading-view-widget-BTC {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.trading-view-widget2 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.trading-view-widget3 {
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.mid_text {
+    text-align: center;
+}
+
+.preview-workshop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background: silver;
+}
+
+.preview-workshop>div:hover::after{
+    content:"see more...";
+    
+    position: absolute;
+    z-index: 2;
+    color: whitesmoke;
+}
+
+.preview-workshop-window1 {
+    grid-area: 1 / 1 / 3 / 2;
+    background-color: rgb(26, 26, 26);
+    border-color: silver;
+    color:white;
+    margin-right: 1px;
+}
+
+.preview-workshop-window2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: rgb(26, 26, 26);
+}
+
+.preview-workshop-window3 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: rgb(26, 26, 26);
+}
+.down-gap{
+    margin-bottom: 150px;
 }

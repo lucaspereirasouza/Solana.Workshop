@@ -1,73 +1,111 @@
-body{
-    background-color: rgb(11, 0, 37);
+body {
+    background: rgb(0, 4, 62);
+    background: radial-gradient(circle, rgba(0, 4, 62, 1) 0%, rgba(0, 1, 22, 1) 100%);
 }
 
-.tab-menu{
+.tab-menu {
+    position: relative;
     display: flex;
     flex-direction: row;
-    background-color: rgb(13, 0, 46);
+    background-color: rgb(2, 0, 46);
     height: 60px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.title{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.title {
+    display: flex;
+    flex-direction: row;
+    text-decoration-line: none;
+}
 
-    background: -webkit-linear-gradient(205deg, rgba(40,0,255,1) 0%, rgba(156,0,255,1) 25%, rgba(128,41,255,1) 42%, rgba(92,94,255,1) 49%, rgba(0,230,255,1) 67%, rgba(0,240,211,1) 79%, rgba(0,255,143,1) 84%);
+.title-name {
+
+    
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+
+    background: -webkit-linear-gradient(205deg, rgba(40, 0, 255, 1) 0%, rgba(0, 240, 211, 1) 60%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    flex:1;
+    flex: 1;
     color: white;
     margin-top: 20px;
+    text-decoration-line: none;
+    padding-top: 10px;
+
 }
 
-.gap{
+.title>img {
+    height: 80px;
+}
+
+.gap {
     flex: 2;
 }
 
-.buttons{
-    flex:1;
+.buttons {
+    flex: 1;
     display: flex;
     flex-direction: row;
 }
 
-.a-page-button{
+.a-page-button {
+
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+
     height: 100%;
-    width: 150px;
+    width: 120px;
     background: none;
     text-align: center;
     text-decoration: none;
-    margin-left: 5px;
+    margin-left: 7px;
+    transition: 0s;
 }
 
-.a-theme-button{
-
+.a-page-button>.a-page-text {
+    transition: 0.1s;
 }
 
-.a-page-button:hover{
-    background-color: #05005c;
+.a-page-button:hover>.a-page-text {
+    color: rgb(161, 161, 161);
 }
 
-.a-theme-button{
+.a-page-text {
+    margin-top: 20px;
+    color: linear-gradient(90deg, rgba(0, 255, 164, 1) 0%, rgba(0, 63, 255, 1) 35%, rgba(0, 255, 143, 1) 72%, rgba(0, 255, 229, 1) 100%);
+    color: rgb(217, 217, 217);
+    transition: 0.3s;
+}
+
+.a-page-text:hover() {
+    color: #ffffff;
+}
+
+.a-theme-button {
     border-radius: 50px;
     background-color: white;
 }
-.a-page-text{
-    margin-top: 20px;
-    color: linear-gradient(90deg, rgba(0,255,164,1) 0%, rgba(0,63,255,1) 35%, rgba(0,255,143,1) 72%, rgba(0,255,229,1) 100%);      
-    color: white;
-}
 
-.login-box{
+
+
+.login-box {
     background-color: #050036;
     height: 150px;
     width: 150px;
-    
+
 }
 
-.name-span{
+.name-span {
     color: white;
 
+}
+
+.box-categories-name {
+    text-decoration-line: none;
 }
