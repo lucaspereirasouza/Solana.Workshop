@@ -47,11 +47,9 @@
 
 
 .main-list {
-    flex: 1.75;
-    width: 700px;
-    margin-left: 70px;
+    margin: auto;
     display: grid;
-    grid-template-columns: 3fr 3fr;
+    grid-template-columns: 3fr 3fr 3fr;
 }
 
 .categories {
